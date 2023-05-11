@@ -6,17 +6,14 @@
 }
 
 body{
-  background: rgb(207, 207, 207);
-}
-
-span{
   margin-top: 25px;
+  background: #b8b8b8;
 }
 
 .formulario{
-  width: 90vw;
-  height: 90vh;
-  margin: 2% auto;
+  width: 90%;
+  height: 100%;
+  margin: 4% auto;
 }
 
 .formulario-cabecalho{
@@ -53,12 +50,12 @@ input{
 }
 
 .form-primeiro-nome{
-  width: 465px;
+  width: 45%;
   display: flex;
   flex-direction: column;
 }
 .form-sobrenome{
-  width: 465px ;
+  width: 45% ;
   display: flex;
   flex-direction: column;
 }
@@ -82,14 +79,14 @@ input{
 }
 
 .form-cidade{
-  width: 465px;
+  width: 45%;
   display: flex;
   flex-direction: column;
 
 }
 
 .form-estado{
-  width: 465px;
+  width: 45%;
   display: flex;
   flex-direction: column;
 }
@@ -101,13 +98,13 @@ input{
 }
 
 .final .senha{
-  width: 465px;
+  width: 45%;
   display: flex;
   flex-direction: column;
 }
 
 .final .botao{
-    width: 465px; 
+  width: 45%;   
 }
 
 .botao .salvar{
@@ -122,21 +119,27 @@ input{
 .botao .continuar{
   background: rgb(255, 123, 0);
   color: white;
+  justify-content: center;  
   border-radius: 10px;
+  border: none;
   padding: 10px 30px;
   font-weight: bold;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 791px) {
 
-  .conteudo-direita{
-    width: 50%;
-  }
-  .conteudo-direita-padrao{
+  .form .nome div{
     width: 100%;
   }
-  .conteudo-direita-padrao div{
+  .form .endereco div{
     width: 100%;
+  }
+  .form .final div{
+    width: 100%;
+  }
+  .form .botao{
+    display: flex;
+    justify-content: space-around;
   }
 
 
