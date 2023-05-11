@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background: rgb(207, 207, 207);
+}
+
+span{
+  margin-top: 25px;
+}
+
+.formulario{
+  width: 90vw;
+  height: 90vh;
+  margin: 2% auto;
+}
+
+.formulario-cabecalho{
+  background: rgb(255, 123, 0);
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px 15px 0 0;
+}
+
+.formulario{
+  background: white;
+  border-radius: 20px;
+}
+.form{
+  margin: 10px 100px;
+}
+
+input{
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border:none;
+  background: rgb(235, 231, 231);
+}
+
+
+/*Inicio nome*/
+.nome{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-primeiro-nome{
+  width: 465px;
+  display: flex;
+  flex-direction: column;
+}
+.form-sobrenome{
+  width: 465px ;
+  display: flex;
+  flex-direction: column;
+}
+
+/*inicio contato*/
+
+.form input[type="email"],
+.form input[type="tel"]{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/*Inicio endereço*/
+
+.endereco{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-cidade{
+  width: 465px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form-estado{
+  width: 465px;
+  display: flex;
+  flex-direction: column;
+}
+
+.final{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.final .senha{
+  width: 465px;
+  display: flex;
+  flex-direction: column;
+}
+
+.final .botao{
+    width: 465px;  
+}
+
+.botao input{
+  background: rgb(255, 123, 0);
+  color: white;
+  font-weight: bold;
+}
+
