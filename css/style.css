@@ -41,6 +41,7 @@ input{
   border-radius: 10px;
   border:none;
   background: rgb(235, 231, 231);
+  font-size: 15px;
 }
 
 
@@ -106,12 +107,37 @@ input{
 }
 
 .final .botao{
-    width: 465px;  
+    width: 465px; 
 }
 
-.botao input{
-  background: rgb(255, 123, 0);
-  color: white;
+.botao .salvar{
+  background: white;
+  border:1px solid rgb(255, 123, 0);
+  color: rgb(255, 123, 0);
+  border-radius: 10px;
+  padding: 10px 45px;
   font-weight: bold;
 }
 
+.botao .continuar{
+  background: rgb(255, 123, 0);
+  color: white;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 990px) {
+
+  .conteudo-direita{
+    width: 50%;
+  }
+  .conteudo-direita-padrao{
+    width: 100%;
+  }
+  .conteudo-direita-padrao div{
+    width: 100%;
+  }
+
+
+}
